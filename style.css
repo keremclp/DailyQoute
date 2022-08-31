@@ -20,6 +20,7 @@ body{
     width: 550px;
     height: 450px;
     margin-right: 10rem;
+    position: relative;
 }
 
 .header{
@@ -40,6 +41,7 @@ body{
     border-radius: 15px;
     padding: 50px 40px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    
 }
 
 .main-content .text-area{
@@ -66,4 +68,45 @@ body{
 .button-area button:active{
     background-color: rgb(71, 33, 20);
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 620px;
+    right:280px;
+}
+.contact p{
+    
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    padding: 0.6rem;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5)
+}
+.contact ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+    
+}
+
+.contact ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-right: 1rem ;
+    font-size: 1.5rem;
+
+}
+
+.contact ul li a{
+    color: rgb(235, 129, 42);
+    text-decoration: none;
 }
