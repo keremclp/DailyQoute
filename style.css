@@ -110,3 +110,7 @@ body{
     color: rgb(235, 129, 42);
     text-decoration: none;
 }
+
+.contact ul li a:hover{
+    opacity: 0.7;
+}
